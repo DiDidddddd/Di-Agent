@@ -1,0 +1,20 @@
+{
+  "name": "di-agent",
+  "version": "0.1.0",
+  "description": "didi agent",
+  "type": "module",
+  "main": "dist/entrypoint/cli.js",
+  "bin": {
+    "agent": "dist/entrypoint/cli.js"
+  },
+  "scripts": {
+    "dev": "tsx src/entrypoint/cli.ts",
+    "build": "tsc",
+    "start": "node dist/entrypoint/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
